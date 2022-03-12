@@ -18,7 +18,14 @@ body {
   flex-direction: column;
   background-color: #e5e5e5;
   height: 100%;
+ 
 }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 
 header {
   background-color: #222222;
@@ -78,6 +85,7 @@ header section {
   height: 100%;
   gap: 10px;
   margin: 1%;
+  flex-wrap: wrap;
 }
 
 main section div {
