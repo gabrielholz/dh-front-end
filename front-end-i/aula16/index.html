@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="formulario">
+    <h1>Cadastro de programadores</h1>
+
+    <form action="">
+      <fieldset>
+        <legend>Dados pessoais</legend>
+
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" placeholder="Informe seu nome">
+        </div>
+
+        <div>
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" name="sobrenome" id="sobrenome" placeholder="Informe seu sobrenome">
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Informe seu email">
+        </div>
+
+        <div>
+          <label for="telefone">Telefone</label>
+          <input type="tel" name="telefone" id="telefone">
+        </div>
+
+        <div>
+          <label for="dataNascimento">Data de Nascimento:</label>
+          <input type="date" name="dataNascimento" id="dataNascimento">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados Profissionais</legend>
+
+        <div class="especialidade">
+          <p>Informe qual a sua especialidade na area de desenvolvimento:</p>
+
+          <label for="esp-front">
+            <input type="radio" name="esp-front" id="esp-front">Front-end
+          </label>
+
+          <label for="esp-back">
+            <input type="radio" name="esp-back" id="esp-front">Back-end
+          </label>
+
+          <label for="esp-full">
+            <input type="radio" name="esp-full" id="esp-full">Fullstack
+          </label>
+          
+        </div>
+
+        <div class="experiencia">
+          <p>Informe seu nivel de experiência</p>
+
+          <select name="nivelExp" id="nivelExp">
+            <optgroup label="Nivel de experiência">
+              <option value="estagio"> Estágio </option>
+              <option value="junior"> Júnior </option>
+              <option value="pleno"> Pleno </option>
+              <option value="senior"> Senior </option>
+            </optgroup>
+          </select>
+
+        </div>
+
+        <div class="modalidadeTrab">
+          <label for="modalTrab"> Modalidade de trabalho: </label>
+
+          <label for="remoto">
+            <input type="checkbox" name="" id="">Remoto
+          </label>
+
+          <label for="remoto">
+            <input type="checkbox" name="" id="">Presencial
+          </label>
+
+          <label for="remoto">
+            <input type="checkbox" name="" id="">Hibrido
+          </label>
+
+         
+
+        </div>
+
+        
+        <div class="desc" >
+          
+          <input type="text" name="desc" id="desc">
+        </div>
+
+      </fieldset>
+
+    </form>
+  </div>
+</body>
+
+</html>
